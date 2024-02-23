@@ -74,10 +74,17 @@ int main()
     Stack<float> s_flo;
     Stack<double> s_dbl;
     Stack<string> s_str;
-    int c = 0, c2 = 0;
+    int c = 0, c2 = 0, f = 0;
     while (1)
     {
         int op, m1 = 1;
+        if (f == 0)
+        {
+            cout << "\033[36;1m" << endl
+                 << "Welcome to Kevin's Stack!"
+                 << "\033[0m" << endl;
+            f = 1;
+        }
         cout << "\033[35;1m"
              << "------------------------------" << endl;
         cout << "Enter Your Datatype:" << endl;

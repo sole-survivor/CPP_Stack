@@ -81,7 +81,7 @@ int main()
         if (f == 0)
         {
             cout << "\033[36;1m" << endl
-                 << "Welcome to Kevin's Stack!"
+                 << "Welcome to SoleSurvivor's Stack!"
                  << "\033[0m" << endl;
             f = 1;
         }

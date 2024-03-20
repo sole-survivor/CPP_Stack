@@ -81,7 +81,7 @@ int main()
         if (f == 0)
         {
             cout << "\033[36;1m" << endl
-                 << "Welcome to SoleSurvivor's Stack!"
+                 << "Welcome to Kevin's Stack!"
                  << "\033[0m" << endl;
             f = 1;
         }
@@ -520,7 +520,7 @@ int main()
         {
             c2 = 0;
             m1 = 1;
-            if (s_dbl.TOP >= 0)
+            if (s_str.TOP >= 0)
             {
                 cout << "\033[33;1m"
                      << "------------------------------" << endl
@@ -536,7 +536,7 @@ int main()
                     c = 0;
                     break;
                 case 2:
-                    s_dbl.reset();
+                    s_str.reset();
                     c = 0;
                     break;
                 default:
@@ -577,15 +577,15 @@ int main()
                 switch (op)
                 {
                 case 1:
-                    s_dbl.push();
+                    s_str.push();
                     c = 0;
                     break;
                 case 2:
-                    s_dbl.pop();
+                    s_str.pop();
                     c = 0;
                     break;
                 case 3:
-                    s_dbl.disp();
+                    s_str.disp();
                     c = 0;
                     break;
                 case 4:
